@@ -1,0 +1,235 @@
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    overflow: hidden;
+}
+
+div#primary-container {
+    width: 72%;
+    margin: 0 auto;
+}
+
+.shirt-container {
+    float: left;
+    width: 421px;
+    color: #5ca4d6;
+}
+
+li {
+    list-style-type: none;
+    display: block;
+    font-family: sans-serif;
+}
+
+#pink-shirt-container, #blue-shirt-container, #mustard-shirt-container {
+    color: #5ca4d6;
+    margin: 0 10px 0 10px;
+}
+
+.pop-up {
+    opacity: 0;
+    width: 50px;
+    position: absolute;
+    padding: 10px 0 0 0;
+    height: 170px;
+    display: inline;
+    top: 67px;
+    left: 104px;
+    background-color: white;
+    border: 2px solid #5ca4d6;
+    transition: all 1s ease;
+    visibility: hidden;
+}
+
+li.size-item:hover .pop-up {
+    opacity: 1;
+    transform: translateY(8px);
+    color: #5ca4d6;
+    visibility: visible;
+}
+
+.pop-up li {
+    width: 52px;
+}
+
+.color-item {
+    opacity: 0;
+    display: inline-block;
+    position: absolute;
+    width: 62px;
+    bottom: -251px;
+    left: 149px;
+    background-color: white;
+    padding: 2px;
+    border: 2px solid #5ca4d6;
+    transition: all 1s ease;
+    visibility: hidden;
+}
+
+.square-item:hover .grid-pop-up {
+    opacity: 1;
+    transform: translateY(8px);
+    visibility: visible;
+}
+
+.color-item li {
+    padding: 5px;
+}
+
+.color-item li:nth-child(1) {
+    margin: 2px;
+    height: 17px;
+    width: 17px;
+    background-color: #5ca4d6;
+}
+
+.color-item li:nth-child(2) {
+    margin: 2px;
+    height: 17px;
+    width: 17px;
+    background-color: #d583ac;
+}
+
+.color-item li:nth-child(3) {
+    margin: 2px;
+    height: 17px;
+    width: 17px;
+    background-color: #deb17e;
+}
+
+.color-item li:nth-child(4) {
+    margin: 2px;
+    height: 17px;
+    width: 17px;
+    background-color: #8bb992;
+}
+
+.shirt-w-undo {
+    position: relative;
+}
+
+ul.shirt-name-price {
+    width: 60%;
+}
+
+li img {
+    border: 2px solid;
+    padding: 29px;
+    width: 200px;
+}
+
+#left-third, #middle-third, #right-third {
+    width: 300px;
+    float: left;
+}
+
+#blue-undo, #pink-undo, #mustard-undo {
+    position: absolute;
+    top: 2px;
+    right: 160px;
+    z-index: 2;
+    font-size: 23px;
+    color: #5ca4d6;
+}
+
+#blue-undo:active, #pink-undo:active, #mustard-undo:active {
+    background-color: #5ca4d6;
+    color: white;
+}
+
+i.fa.fa-undo::before {
+    border-left: 2px solid #5ca4d6;
+    border-bottom: 2px solid #5ca4d6;
+}
+
+div.icons {
+    text-align: center;
+    font-size: 23px;
+    position: relative;
+    top: -4px;
+}
+
+.fa-exchange:before {
+    content: "\f0ec";
+    vertical-align: -webkit-baseline-middle;
+}
+
+.fa-heart-o:before {
+    content: "\f08a";
+    vertical-align: -webkit-baseline-middle;
+}
+
+.fa-square:before {
+    content: "\f0c8";
+    vertical-align: -webkit-baseline-middle;
+}
+
+.fa-shopping-cart:before {
+    content: "\f07a";
+    vertical-align: -webkit-baseline-middle;
+}
+
+span {
+    vertical-align: -webkit-baseline-middle;
+}
+
+section div ul li {
+    float: left;
+    width: 83px;
+    height: 45px;
+}
+
+.price {
+    float: right;
+    font-size: 23px;
+}
+
+.shirt-name {
+    font-size: 23px;
+    float: left;
+}
+
+li.icon-li {
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    width: 50px;
+}
+
+li.icon-li:hover, #blue-undo:hover, #pink-undo:hover, #mustard-undo:hover {
+    cursor: pointer;
+}
+
+.blue-footer, .pink-footer, .mustard-footer {
+    color: #5ca4d6;
+}
+
+li.icon-li-border {
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-left: 2px solid;
+}
+
+section div ul li:nth-child(2), section div ul li:nth-child(3), section div ul li:nth-child(4), section div ul li:nth-child(5) {
+    border-left: 0px;
+}
+
+#pink-sq {
+    color: #d583ac;
+}
+
+#mustard-sq {
+    color: #deb17e;
+}
+
+ul.borders-blue {
+    color: #5ca4d6;
+}
+
+ul .icon-li:nth-child(n+1):hover {
+    background-color: #5ca4d6;
+    border-color: #5ca4d6;
+    color: white;
+}
